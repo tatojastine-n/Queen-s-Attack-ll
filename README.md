@@ -1,1 +1,2 @@
 # Queen-s-Attack-ll
+This C# program calculates the number of squares a queen can attack on an `n x n` chessboard, considering obstacles. The `queensAttack` function stores obstacles in a hash set for quick lookup and then checks all eight possible queen directions (vertical, horizontal, and diagonal). It moves step by step in each direction, counting squares until it either hits the board boundary or an obstacle. The `Main` method reads the board size, queen position, obstacle positions, calls the function, and prints the total attackable squares.
